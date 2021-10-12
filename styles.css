@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+/* Header and footer styles */
+header,
+footer {
+	background: #1f2937;
+	color: #f9faf8;
+}
+
+.header-main-text {
+	font-size: 48px;
+	font-weight: 800;
+	color: #f9faf8;
+}
+
+.header-secondary-text,
+.header-link {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.header-logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+.sign-up {
+	background: #3882f6;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	color: #f9faf8;
+	font-weight: 700;
+}
+
+.sign-up-flat {
+	background: #3882f6;
+	border: 2px solid #f9faf8;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	color: #f9faf8;
+	font-weight: 700;
+}
+
+/* Main body styles */
+main h2:first-child {
+	font-size: 36px;
+	font-weight: 800;
+	color: #1f2937;
+}
+
+.illustration-box img {
+	width: 20px;
+	height: 20px;
+	border: 3px solid #3882f6;
+	box-shadow: 0 0 0.5rem 0.125rem #3882f6;
+}
+
+.quote-section {
+	background: #e5e7eb;
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: 200;
+}
+
+.quote-author {
+	font-size: 18px;
+	text-align: right;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
